@@ -1,0 +1,49 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.challenge-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #cff0e5;
+    box-shadow: 0 4px 4px #0000001a;
+    position: relative;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.counter-value {
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.counter-controls {
+    padding: 1rem;
+}
+
+button.btn.btn-primary {
+    padding: 10px 16px;
+    background-color: #0ff;
+    border: 1px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#changeBy {
+    width: 4rem;
+    height: 2rem;
+    font-size: 1rem;
+}
